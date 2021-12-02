@@ -11,3 +11,11 @@ Here you will see the result of my learning path through books on:
 I'm not assuming there is no other topics that would may be considered foundational. For this reason I'm glad to listen your comments on the subject. 
 
 Welcome to LFB!
+
+List of books
+- UNIX
+	- El Entorno de Programación UNIX
+- C
+	- El Lenguaje de Programación C (ELPC)
+- Algorithms and Data Structures
+- SQL
