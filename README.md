@@ -14,8 +14,8 @@ Welcome to LFB!
 
 List of books
 - UNIX
-	- El Entorno de Programación UNIX
+	- [Kernighan, B. W., & Pike, R. (1989). El entorno de programación UNIX. México: Prentice-Hall Hispanoamericana.](El Entorno de Programación Unix - EEPU)
 - C
-	- El Lenguaje de Programación C (ELPC)
+	- [Kernighan, B. W., & Ritchie, D. M. (1989). El lenguaje de programación C. México: Prentice-Hall.](El lenguaje de Programación C - ELPC)
 - Algorithms and Data Structures
 - SQL

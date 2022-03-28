@@ -113,7 +113,7 @@ THING *addmiddle (THING *head, THING *newp)
 // Main loop. Use p2 to remember previous p1
 	p2 = p1 = head ; 
 	while (!found) {
-  		if (found = strcmp(p1 -> item, newp -> item) >= 1) {
+	  if ((found = strcmp(p1 -> item, newp -> item)) >= 1) {
 			if (p1 == head) { 
 //					printf("adding at head\n");
 					head = addfront(head, newp); 

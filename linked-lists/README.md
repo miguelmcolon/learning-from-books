@@ -20,7 +20,7 @@ struct s_node
 
 Habitualmente se usará `typedef` para abreviar la declaración de nuevos elementos de la estructura. Las dos formas de hacerlo son:
 
-Integrada en la descripción de la estructura:
+Integrada en la descripción de la estructura
 
 ```
 struct s_node
@@ -30,8 +30,30 @@ struct s_node
 } t_node;
 ```	
 
-Donde `s_node` es el nombre de la variable usado cuando se declara la estructura en la forma completa que usa `struct` 
+Donde:
+- `s_node` es el nombre de la variable usado cuando se declara la estructura en la forma completa que usa `struct`.
+- `t_node`es el nombre del tipo que usaremos cuando queramos instanciar una estructura `s_node`.
+
+Otra forma de hacerlo es separando la definición de la estructura y la formación del tipo con `typedef`:
+
+```
+struct s_node
+{
+	char *str;
+	struct s_node *next;
+};
+
+typedef struct s_node t_node;
+```	
 
 ### Aproximaciones
 
-[Proffesor Brailsfor's code](approaches/brailsford.c)
+- [Professor Brailsfor's code](approaches/brailsford.c)
+- 
+
+### Fuentes
+
+- Kernighan, B. W., & Ritchie, D. M. (1989). El lenguaje de programación C. México: Prentice-Hall. 
+- Traister, R. J. (2014). Mastering C Pointers: Tools for Programming Power. Saint Louis: Elsevier Science.
+- Deitel, H. M., & Deitel, P. J. (1994). C: How program. London: Prentice-Hall International.
+- Lafore, R., & Waite Group, inc. (1991). Programación en Microsoft C para IBM PC y compatibles: Introducción y técnicas avanzadas de programación. Madrid: Anaya Multimedia.
