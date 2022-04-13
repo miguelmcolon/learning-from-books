@@ -49,8 +49,10 @@ typedef struct s_node t_node;
 ### Aproximaciones
 
 - [Professor Brailsfor's code](approaches/brailsford.c)
-- 
-
+- [Stanford - Nick Parlante](http://cslibrary.stanford.edu/103/LinkedListBasics.pdf)
+  - Sugiere para entender las listas enlazadas observar cómo funcionan los arrays y pensar en una aproximación alternativa. Eso evidencia las ventajas de las listas enlazadas en el tratamiento dinámico de la memoria frente a los arrays.
+  - Señala como buena práctica los esquemas de memoria que diferencian entre los elementos alojados en la memoria stack intrafunción y los elementos alojados en la memoria heap mediante malloc.
+  
 ### Fuentes
 
 - Kernighan, B. W., & Ritchie, D. M. (1989). El lenguaje de programación C. México: Prentice-Hall. 
